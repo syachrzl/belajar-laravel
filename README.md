@@ -5,7 +5,7 @@ READ ME !!!
 3. Masuk Kedalam VSCode, Buka Project belajar-laravel
 4. Buka Terminal dan ketik "composer install"
 5. Copy file .env example, Paste dan rubah namanya jadi .env
-6. Ganti Nama DB_BASE sesuai dengan nama database di MYSQL
+6. Ganti Nama DB_BASE di .env sesuai dengan nama database di MYSQL
 7. Buka terminal baru , ketik php artisan migrate
 8. Lalu ketik lagi php artisan db:seed --class=EmployeeSeeder untuk seeder
 9. Jalankan server dengan php artisan serve
