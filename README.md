@@ -1,3 +1,15 @@
+READ ME !!!
+
+1. Download Zip
+2. Ekstrak Zip belajar-laravel
+3. Masuk Kedalam VSCode, Buka Project belajar-laravel
+4. Buka Terminal dan ketik "composer install"
+5. Copy file .env example, Paste dan rubah namanya jadi .env
+6. Ganti Nama DB_BASE sesuai dengan nama database di MYSQL
+7. Buka terminal baru , ketik php artisan migrate
+8. Lalu ketik lagi php artisan db:seed --class=EmployeeSeeder untuk seeder
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
