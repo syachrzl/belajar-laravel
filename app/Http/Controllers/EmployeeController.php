@@ -25,4 +25,20 @@ class EmployeeController extends Controller
         Employee::create($request->all());
         return redirect()->route('employee');
     }
+
+    public function showdata($id)
+    {
+        $data = Employee::find($id);
+        // dd($data);
+
+        return view('editEmployeeData', compact('data'));
+    }
+
+    public function updatedata(Request $request, $id)
+    {
+        $data = Employee::find($id);
+        $data->update($request->all());
+
+        return redirect()->route('employee');
+    }
 }

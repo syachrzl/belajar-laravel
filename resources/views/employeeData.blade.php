@@ -32,7 +32,7 @@
                       <td>{{ $row->gender }}</td>
                       <td>{{ $row->no_hp }}</td>
                       <td style="width: 200px;text-align: center">
-                        <button type="button" class="btn btn-primary">Edit</button>
+                        <a href="/showdata/{{ $row->id }}" class="btn btn-primary">Edit</a>
                         <button type="button" class="btn btn-danger">Hapus</button>
                       </td>
                   

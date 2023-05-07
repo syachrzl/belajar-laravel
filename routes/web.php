@@ -24,3 +24,7 @@ Route::get('/employee', [EmployeeController::class, 'index'])->name('employee');
 Route::get('/create', [EmployeeController::class, 'create']);
 
 Route::post('/insert', [EmployeeController::class, 'insert']);
+
+Route::get('/showdata/{id}', [EmployeeController::class, 'showdata'])->name('showdata');
+
+Route::post('/updatedata/{id}', [EmployeeController::class, 'updatedata'])->name('updatedata');
